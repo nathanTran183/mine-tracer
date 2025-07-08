@@ -1,0 +1,38 @@
+{
+  "datasets": [
+    { "id": 1, "name": "Gold", "symbol": "Au" },
+    { "id": 2, "name": "Silver", "symbol": "Ag" },
+    { "id": 3, "name": "Aluminium", "symbol": "Al" },
+    { "id": 4, "name": "Mercury", "symbol": "Hg" },
+    { "id": 5, "name": "Titanium", "symbol": "Ti" },
+    { "id": 6, "name": "Lead", "symbol": "Pb" },
+    { "id": 7, "name": "Calcium", "symbol": "Ca" },
+    { "id": 8, "name": "Silicon", "symbol": "Si" },
+    { "id": 9, "name": "Magnesium", "symbol": "Mg" },
+    { "id": 10, "name": "Potassium", "symbol": "K" },
+    { "id": 11, "name": "Copper", "symbol": "Cu" },
+    { "id": 12, "name": "Uranium", "symbol": "U" }
+  ],
+  "mines": [
+    {
+      "id": 1,
+      "name": "Port Hedland",
+      "location": { "long": 119.909394, "lat": -23.253018 }
+    },
+    {
+      "id": 2,
+      "name": "Karratha",
+      "location": { "long": 117.028677, "lat": -20.809076 }
+    },
+    {
+      "id": 3,
+      "name": "Broome",
+      "location": { "long": 114.174513, "lat": -22.260185 }
+    },
+    {
+      "id": 4,
+      "name": "Derby",
+      "location": { "long": 121.529475, "lat": -19.385324 }
+    }
+  ]
+}
