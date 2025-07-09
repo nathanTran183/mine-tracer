@@ -4,13 +4,13 @@ const SearchBar = () => {
       <input
         type="search"
         id="search-dropdown"
-        className="block p-2.5 w-full z-20 text-sm rounded-md text-gray-900 bg-gray-50  border-s-gray-50 border-s-2 border border-gray-300 dark:bg-gray-800 outline-none dark:border-s-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:border-blue-500"
+        className="block p-2.5 w-full z-20 text-sm rounded-md text-gray-900 bg-gray-50  border-s-gray-50 border-s-2 border border-gray-300 dark:bg-gray-800 outline-none dark:border-s-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
         placeholder="Search Mine site, minerals..."
         required
       />
       <button
         type="submit"
-        className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-gray-500 hover:cursor-pointer rounded-e-md border border-gray-700 hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-blue-300"
+        className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-gray-500 hover:cursor-pointer rounded-e-md border border-white dark:border-black hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-blue-300"
       >
         <svg
           className="w-4 h-4"

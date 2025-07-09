@@ -18,7 +18,7 @@ export const Header = () => {
     { title: 'Portal', href: '/' },
     { title: 'Mine Type', href: '/mine-type' },
     { title: 'Help', href: '/help' },
-    { title: 'About Us', href: '/about-us' },
+    { title: 'About Us', href: '/about' },
   ];
 
   return (
@@ -50,11 +50,11 @@ export const Header = () => {
             <div className="flex space-x-1 justify-items-start w-full">
               {leftMenu.map((m, idx) => (
                 <Link
-                  className={`px-3 py-2 border-b-4 text-sm font-medium text-white dark:text-black hover:border-b-gray-300 hover:text-gray-300
+                  className={`px-3 py-2 border-b-4 text-sm font-medium hover:border-b-gray-300 hover:text-gray-300
                   ${
                     pathName == m.href
-                      ? 'border-b-gray-300'
-                      : 'border-b-gray-400'
+                      ? 'border-b-gray-300 text-gray-300 dark:text-gray-300'
+                      : 'border-b-gray-400 text-white dark:text-black'
                   } `}
                   key={idx}
                   href={m.href}

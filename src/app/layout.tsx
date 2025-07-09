@@ -25,7 +25,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
         <Header />
-        <main className="flex-grow gap-[50px] items-center sm:items-start pt-32">
+        <main className="w-3/4 mx-auto flex-grow gap-[50px] items-center sm:items-start pt-36">
           {children}
         </main>
         <Footer />
