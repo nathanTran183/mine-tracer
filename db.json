@@ -1,38 +1,312 @@
 {
   "datasets": [
-    { "id": 1, "name": "Gold", "symbol": "Au" },
-    { "id": 2, "name": "Silver", "symbol": "Ag" },
-    { "id": 3, "name": "Aluminium", "symbol": "Al" },
-    { "id": 4, "name": "Mercury", "symbol": "Hg" },
-    { "id": 5, "name": "Titanium", "symbol": "Ti" },
-    { "id": 6, "name": "Lead", "symbol": "Pb" },
-    { "id": 7, "name": "Calcium", "symbol": "Ca" },
-    { "id": 8, "name": "Silicon", "symbol": "Si" },
-    { "id": 9, "name": "Magnesium", "symbol": "Mg" },
-    { "id": 10, "name": "Potassium", "symbol": "K" },
-    { "id": 11, "name": "Copper", "symbol": "Cu" },
-    { "id": 12, "name": "Uranium", "symbol": "U" }
+    {
+      "id": 1,
+      "name": "Gold",
+      "symbol": "Au",
+      "total_amount": 1456245000
+    },
+    {
+      "id": 2,
+      "name": "Silver",
+      "symbol": "Ag",
+      "total_amount": 980000000
+    },
+    {
+      "id": 3,
+      "name": "Aluminium",
+      "symbol": "Al",
+      "total_amount": 2230000000
+    },
+    {
+      "id": 4,
+      "name": "Mercury",
+      "symbol": "Hg",
+      "total_amount": 65000000
+    },
+    {
+      "id": 5,
+      "name": "Titanium",
+      "symbol": "Ti",
+      "total_amount": 170000000
+    },
+    {
+      "id": 6,
+      "name": "Lead",
+      "symbol": "Pb",
+      "total_amount": 950000000
+    },
+    {
+      "id": 7,
+      "name": "Calcium",
+      "symbol": "Ca",
+      "total_amount": 1200000000
+    },
+    {
+      "id": 8,
+      "name": "Silicon",
+      "symbol": "Si",
+      "total_amount": 500000000
+    },
+    {
+      "id": 9,
+      "name": "Magnesium",
+      "symbol": "Mg",
+      "total_amount": 450000000
+    },
+    {
+      "id": 10,
+      "name": "Potassium",
+      "symbol": "K",
+      "total_amount": 300000000
+    },
+    {
+      "id": 11,
+      "name": "Copper",
+      "symbol": "Cu",
+      "total_amount": 875000000
+    },
+    {
+      "id": 12,
+      "name": "Uranium",
+      "symbol": "U",
+      "total_amount": 210000000
+    }
   ],
   "mines": [
     {
       "id": 1,
       "name": "Port Hedland",
-      "location": { "long": 119.909394, "lat": -23.253018 }
+      "location": {
+        "long": 119.909394,
+        "lat": -23.253018
+      },
+      "datatype": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 6245000,
+          "mined": 12223
+        },
+        {
+          "id": 9,
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "total_amount": 12000000,
+          "mined": 11223
+        }
+      ],
+      "status": "active",
+      "year": 1992,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 120000,
+        "co2_emission_ton_per_year": 4000,
+        "waste_management": "tailing pond",
+        "environmental_report_url": "https://example.com/porthedland_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 5500
+            },
+            {
+              "symbol": "Mg",
+              "amount": 3100
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 250,
+        "contractors": 35,
+        "working_shifts": 3,
+        "main_operator": "MinesCorp Ltd",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-001",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2015,
+        "valid_until": 2035,
+        "renewable": true
+      }
     },
     {
       "id": 2,
       "name": "Karratha",
-      "location": { "long": 117.028677, "lat": -20.809076 }
+      "location": {
+        "long": 117.028677,
+        "lat": -20.809076
+      },
+      "datatype": [
+        {
+          "id": 3,
+          "name": "Aluminium",
+          "symbol": "Al",
+          "total_amount": 15400000,
+          "mined": 5233
+        },
+        {
+          "id": 2,
+          "name": "Silver",
+          "symbol": "Ag",
+          "total_amount": 9100000,
+          "mined": 487
+        }
+      ],
+      "status": "active",
+      "year": 2001,
+      "environmental": {
+        "impact_level": "high",
+        "water_usage_m3_per_year": 180000,
+        "co2_emission_ton_per_year": 8500,
+        "waste_management": "dry stack",
+        "environmental_report_url": "https://example.com/karratha_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Al",
+              "amount": 5000
+            },
+            {
+              "symbol": "Ag",
+              "amount": 400
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 300,
+        "contractors": 50,
+        "working_shifts": 2,
+        "main_operator": "AusMines Ltd",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-002",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2010,
+        "valid_until": 2030,
+        "renewable": true
+      }
     },
     {
       "id": 3,
       "name": "Broome",
-      "location": { "long": 114.174513, "lat": -22.260185 }
+      "location": {
+        "long": 114.174513,
+        "lat": -22.260185
+      },
+      "datatype": [
+        {
+          "id": 12,
+          "name": "Uranium",
+          "symbol": "U",
+          "total_amount": 8200000,
+          "mined": 1200
+        },
+        {
+          "id": 5,
+          "name": "Titanium",
+          "symbol": "Ti",
+          "total_amount": 6000000,
+          "mined": 3300
+        }
+      ],
+      "status": "inactive",
+      "year": 1985,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 40000,
+        "co2_emission_ton_per_year": 1200,
+        "waste_management": "encapsulation",
+        "environmental_report_url": "https://example.com/broome_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2020,
+          "data": [
+            {
+              "symbol": "U",
+              "amount": 800
+            },
+            {
+              "symbol": "Ti",
+              "amount": 1000
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 80,
+        "contractors": 15,
+        "working_shifts": 1,
+        "main_operator": "Broome Mining Co.",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-003",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1984,
+        "valid_until": 2024,
+        "renewable": false
+      }
     },
     {
       "id": 4,
       "name": "Derby",
-      "location": { "long": 121.529475, "lat": -19.385324 }
+      "location": {
+        "long": 121.529475,
+        "lat": -19.385324
+      },
+      "datatype": [
+        {
+          "id": 11,
+          "name": "Copper",
+          "symbol": "Cu",
+          "total_amount": 15600000,
+          "mined": 2000
+        },
+        {
+          "id": 6,
+          "name": "Lead",
+          "symbol": "Pb",
+          "total_amount": 10200000,
+          "mined": 940
+        }
+      ],
+      "status": "under_exploration",
+      "year": 2010,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 70000,
+        "co2_emission_ton_per_year": 3000,
+        "waste_management": "settling basin",
+        "environmental_report_url": "https://example.com/derby_env2024.pdf"
+      },
+      "production_history": [],
+      "operations": {
+        "employees": 60,
+        "contractors": 20,
+        "working_shifts": 1,
+        "main_operator": "Derby Resources",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-004",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2015,
+        "valid_until": 2040,
+        "renewable": true
+      }
     }
   ]
 }
