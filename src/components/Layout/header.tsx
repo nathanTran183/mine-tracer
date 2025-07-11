@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Icon from '../../../public/Icon.png';
 import IconText from '../../../public/Icon-Text.png';
 import Link from 'next/link';
-import SearchBar from '../Features/SearchBar/SearchBar';
+import SearchBar from '../features/SearchBar/SearchBar';
 import { usePathname } from 'next/navigation';
 
 interface MenuBar {
@@ -19,6 +19,7 @@ export const Header = () => {
     { title: 'Mine Type', href: '/mine-type' },
     { title: 'Help', href: '/help' },
     { title: 'About Us', href: '/about' },
+    { title: 'Privacy Policy', href: '/privacy-policy' },
   ];
 
   return (

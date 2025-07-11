@@ -1,5 +1,5 @@
 {
-  "datasets": [
+  "minerals": [
     {
       "id": 1,
       "name": "Gold",
@@ -81,7 +81,7 @@
         "long": 119.909394,
         "lat": -23.253018
       },
-      "datatype": [
+      "mineral": [
         {
           "id": 1,
           "name": "Gold",
@@ -143,7 +143,7 @@
         "long": 117.028677,
         "lat": -20.809076
       },
-      "datatype": [
+      "mineral": [
         {
           "id": 3,
           "name": "Aluminium",
@@ -202,10 +202,10 @@
       "id": 3,
       "name": "Broome",
       "location": {
-        "long": 114.174513,
-        "lat": -22.260185
+        "long": 122.230827,
+        "lat": -17.961193
       },
-      "datatype": [
+      "mineral": [
         {
           "id": 12,
           "name": "Uranium",
@@ -264,10 +264,10 @@
       "id": 4,
       "name": "Derby",
       "location": {
-        "long": 121.529475,
-        "lat": -19.385324
+        "long": 123.639264,
+        "lat": -17.308636
       },
-      "datatype": [
+      "mineral": [
         {
           "id": 11,
           "name": "Copper",
@@ -307,6 +307,1203 @@
         "valid_until": 2040,
         "renewable": true
       }
+    },
+    {
+      "id": 5,
+      "name": "Kalgoorlie",
+      "location": {
+        "long": 121.473081,
+        "lat": -30.748894
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 25000000,
+          "mined": 45000
+        },
+        {
+          "id": 2,
+          "name": "Silver",
+          "symbol": "Ag",
+          "total_amount": 8500000,
+          "mined": 2100
+        },
+        {
+          "id": 11,
+          "name": "Copper",
+          "symbol": "Cu",
+          "total_amount": 12000000,
+          "mined": 1800
+        }
+      ],
+      "status": "active",
+      "year": 1893,
+      "environmental": {
+        "impact_level": "high",
+        "water_usage_m3_per_year": 250000,
+        "co2_emission_ton_per_year": 12000,
+        "waste_management": "tailing pond",
+        "environmental_report_url": "https://example.com/kalgoorlie_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 18500
+            },
+            {
+              "symbol": "Ag",
+              "amount": 1200
+            },
+            {
+              "symbol": "Cu",
+              "amount": 800
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 850,
+        "contractors": 150,
+        "working_shifts": 3,
+        "main_operator": "Super Pit Mining Ltd",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-005",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2020,
+        "valid_until": 2045,
+        "renewable": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "Geraldton",
+      "location": {
+        "long": 114.616667,
+        "lat": -28.783333
+      },
+      "mineral": [
+        {
+          "id": 8,
+          "name": "Silicon",
+          "symbol": "Si",
+          "total_amount": 18000000,
+          "mined": 5500
+        },
+        {
+          "id": 9,
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "total_amount": 14000000,
+          "mined": 3200
+        }
+      ],
+      "status": "active",
+      "year": 1998,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 95000,
+        "co2_emission_ton_per_year": 3800,
+        "waste_management": "dry stack",
+        "environmental_report_url": "https://example.com/geraldton_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Si",
+              "amount": 4200
+            },
+            {
+              "symbol": "Mg",
+              "amount": 2800
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 180,
+        "contractors": 25,
+        "working_shifts": 2,
+        "main_operator": "Geraldton Minerals Co.",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-006",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2018,
+        "valid_until": 2038,
+        "renewable": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bunbury",
+      "location": {
+        "long": 115.641667,
+        "lat": -33.327222
+      },
+      "mineral": [
+        {
+          "id": 3,
+          "name": "Aluminium",
+          "symbol": "Al",
+          "total_amount": 22000000,
+          "mined": 12000
+        }
+      ],
+      "status": "closed",
+      "year": 1975,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 0,
+        "co2_emission_ton_per_year": 0,
+        "waste_management": "rehabilitation completed",
+        "environmental_report_url": "https://example.com/bunbury_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2018,
+          "data": [
+            {
+              "symbol": "Al",
+              "amount": 8500
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 0,
+        "contractors": 5,
+        "working_shifts": 0,
+        "main_operator": "Bunbury Mining Historical Trust",
+        "safety_rating": "N/A"
+      },
+      "license": {
+        "license_id": "WA-MINE-007",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1974,
+        "valid_until": 2020,
+        "renewable": false
+      }
+    },
+    {
+      "id": 8,
+      "name": "Albany",
+      "location": {
+        "long": 117.883333,
+        "lat": -35.033333
+      },
+      "mineral": [
+        {
+          "id": 5,
+          "name": "Titanium",
+          "symbol": "Ti",
+          "total_amount": 11000000,
+          "mined": 2400
+        },
+        {
+          "id": 10,
+          "name": "Potassium",
+          "symbol": "K",
+          "total_amount": 8500000,
+          "mined": 1800
+        },
+        {
+          "id": 7,
+          "name": "Calcium",
+          "symbol": "Ca",
+          "total_amount": 15000000,
+          "mined": 3500
+        }
+      ],
+      "status": "under_exploration",
+      "year": 2015,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 45000,
+        "co2_emission_ton_per_year": 1500,
+        "waste_management": "settling basin",
+        "environmental_report_url": "https://example.com/albany_env2024.pdf"
+      },
+      "production_history": [],
+      "operations": {
+        "employees": 45,
+        "contractors": 12,
+        "working_shifts": 1,
+        "main_operator": "Albany Exploration Ltd",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-008",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2020,
+        "valid_until": 2050,
+        "renewable": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "Esperance",
+      "location": {
+        "long": 121.891667,
+        "lat": -33.861667
+      },
+      "mineral": [
+        {
+          "id": 6,
+          "name": "Lead",
+          "symbol": "Pb",
+          "total_amount": 13500000,
+          "mined": 4200
+        },
+        {
+          "id": 4,
+          "name": "Mercury",
+          "symbol": "Hg",
+          "total_amount": 2800000,
+          "mined": 850
+        }
+      ],
+      "status": "closed",
+      "year": 1988,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 0,
+        "co2_emission_ton_per_year": 0,
+        "waste_management": "remediation ongoing",
+        "environmental_report_url": "https://example.com/esperance_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2015,
+          "data": [
+            {
+              "symbol": "Pb",
+              "amount": 3200
+            },
+            {
+              "symbol": "Hg",
+              "amount": 650
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 0,
+        "contractors": 8,
+        "working_shifts": 0,
+        "main_operator": "Esperance Environmental Services",
+        "safety_rating": "N/A"
+      },
+      "license": {
+        "license_id": "WA-MINE-009",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1987,
+        "valid_until": 2017,
+        "renewable": false
+      }
+    },
+    {
+      "id": 10,
+      "name": "Newman",
+      "location": {
+        "long": 119.734444,
+        "lat": -23.354444
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 8900000,
+          "mined": 5600
+        },
+        {
+          "id": 11,
+          "name": "Copper",
+          "symbol": "Cu",
+          "total_amount": 16500000,
+          "mined": 8200
+        },
+        {
+          "id": 12,
+          "name": "Uranium",
+          "symbol": "U",
+          "total_amount": 4200000,
+          "mined": 450
+        },
+        {
+          "id": 3,
+          "name": "Aluminium",
+          "symbol": "Al",
+          "total_amount": 19000000,
+          "mined": 9500
+        }
+      ],
+      "status": "active",
+      "year": 1969,
+      "environmental": {
+        "impact_level": "high",
+        "water_usage_m3_per_year": 320000,
+        "co2_emission_ton_per_year": 15000,
+        "waste_management": "tailing pond",
+        "environmental_report_url": "https://example.com/newman_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 4800
+            },
+            {
+              "symbol": "Cu",
+              "amount": 6500
+            },
+            {
+              "symbol": "U",
+              "amount": 350
+            },
+            {
+              "symbol": "Al",
+              "amount": 7800
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 650,
+        "contractors": 120,
+        "working_shifts": 3,
+        "main_operator": "Newman Mining Corporation",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-010",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2019,
+        "valid_until": 2049,
+        "renewable": true
+      }
+    },
+    {
+      "id": 11,
+      "name": "Carnarvon",
+      "location": {
+        "long": 113.658333,
+        "lat": -24.866667
+      },
+      "mineral": [
+        {
+          "id": 8,
+          "name": "Silicon",
+          "symbol": "Si",
+          "total_amount": 9200000,
+          "mined": 1800
+        },
+        {
+          "id": 7,
+          "name": "Calcium",
+          "symbol": "Ca",
+          "total_amount": 11500000,
+          "mined": 2200
+        },
+        {
+          "id": 10,
+          "name": "Potassium",
+          "symbol": "K",
+          "total_amount": 6800000,
+          "mined": 1400
+        }
+      ],
+      "status": "inactive",
+      "year": 2005,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 65000,
+        "co2_emission_ton_per_year": 2200,
+        "waste_management": "dry stack",
+        "environmental_report_url": "https://example.com/carnarvon_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2021,
+          "data": [
+            {
+              "symbol": "Si",
+              "amount": 1500
+            },
+            {
+              "symbol": "Ca",
+              "amount": 1800
+            },
+            {
+              "symbol": "K",
+              "amount": 1100
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 85,
+        "contractors": 18,
+        "working_shifts": 1,
+        "main_operator": "Carnarvon Mining Consortium",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-011",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2004,
+        "valid_until": 2034,
+        "renewable": true
+      }
+    },
+    {
+      "id": 12,
+      "name": "Northam",
+      "location": {
+        "long": 116.671667,
+        "lat": -31.651667
+      },
+      "mineral": [
+        {
+          "id": 2,
+          "name": "Silver",
+          "symbol": "Ag",
+          "total_amount": 7200000,
+          "mined": 1650
+        }
+      ],
+      "status": "closed",
+      "year": 1965,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 0,
+        "co2_emission_ton_per_year": 0,
+        "waste_management": "rehabilitation completed",
+        "environmental_report_url": "https://example.com/northam_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2008,
+          "data": [
+            {
+              "symbol": "Ag",
+              "amount": 1200
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 0,
+        "contractors": 3,
+        "working_shifts": 0,
+        "main_operator": "Northam Heritage Mining",
+        "safety_rating": "N/A"
+      },
+      "license": {
+        "license_id": "WA-MINE-012",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1964,
+        "valid_until": 2010,
+        "renewable": false
+      }
+    },
+    {
+      "id": 13,
+      "name": "Exmouth",
+      "location": {
+        "long": 114.127778,
+        "lat": -21.938056
+      },
+      "mineral": [
+        {
+          "id": 5,
+          "name": "Titanium",
+          "symbol": "Ti",
+          "total_amount": 14500000,
+          "mined": 3800
+        },
+        {
+          "id": 9,
+          "name": "Magnesium",
+          "symbol": "Mg",
+          "total_amount": 10800000,
+          "mined": 2400
+        }
+      ],
+      "status": "active",
+      "year": 2012,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 85000,
+        "co2_emission_ton_per_year": 3200,
+        "waste_management": "settling basin",
+        "environmental_report_url": "https://example.com/exmouth_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Ti",
+              "amount": 3200
+            },
+            {
+              "symbol": "Mg",
+              "amount": 2000
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 145,
+        "contractors": 28,
+        "working_shifts": 2,
+        "main_operator": "Exmouth Coastal Mining",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-013",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2011,
+        "valid_until": 2041,
+        "renewable": true
+      }
+    },
+    {
+      "id": 14,
+      "name": "Wyndham",
+      "location": {
+        "long": 128.120833,
+        "lat": -15.486667
+      },
+      "mineral": [
+        {
+          "id": 12,
+          "name": "Uranium",
+          "symbol": "U",
+          "total_amount": 5600000,
+          "mined": 280
+        },
+        {
+          "id": 6,
+          "name": "Lead",
+          "symbol": "Pb",
+          "total_amount": 8900000,
+          "mined": 1200
+        },
+        {
+          "id": 4,
+          "name": "Mercury",
+          "symbol": "Hg",
+          "total_amount": 1800000,
+          "mined": 450
+        }
+      ],
+      "status": "under_exploration",
+      "year": 2018,
+      "environmental": {
+        "impact_level": "high",
+        "water_usage_m3_per_year": 110000,
+        "co2_emission_ton_per_year": 4500,
+        "waste_management": "encapsulation",
+        "environmental_report_url": "https://example.com/wyndham_env2024.pdf"
+      },
+      "production_history": [],
+      "operations": {
+        "employees": 75,
+        "contractors": 22,
+        "working_shifts": 1,
+        "main_operator": "Wyndham Exploration Services",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-014",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2017,
+        "valid_until": 2047,
+        "renewable": true
+      }
+    },
+    {
+      "id": 15,
+      "name": "Mandurah",
+      "location": {
+        "long": 115.721944,
+        "lat": -32.527222
+      },
+      "mineral": [
+        {
+          "id": 8,
+          "name": "Silicon",
+          "symbol": "Si",
+          "total_amount": 12000000,
+          "mined": 4500
+        },
+        {
+          "id": 3,
+          "name": "Aluminium",
+          "symbol": "Al",
+          "total_amount": 9800000,
+          "mined": 2800
+        },
+        {
+          "id": 11,
+          "name": "Copper",
+          "symbol": "Cu",
+          "total_amount": 7500000,
+          "mined": 1600
+        },
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 4200000,
+          "mined": 850
+        }
+      ],
+      "status": "closed",
+      "year": 1978,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 0,
+        "co2_emission_ton_per_year": 0,
+        "waste_management": "remediation ongoing",
+        "environmental_report_url": "https://example.com/mandurah_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2012,
+          "data": [
+            {
+              "symbol": "Si",
+              "amount": 3800
+            },
+            {
+              "symbol": "Al",
+              "amount": 2200
+            },
+            {
+              "symbol": "Cu",
+              "amount": 1200
+            },
+            {
+              "symbol": "Au",
+              "amount": 650
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 0,
+        "contractors": 12,
+        "working_shifts": 0,
+        "main_operator": "Mandurah Environmental Restoration",
+        "safety_rating": "N/A"
+      },
+      "license": {
+        "license_id": "WA-MINE-015",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1977,
+        "valid_until": 2015,
+        "renewable": false
+      }
+    },
+    {
+      "id": 16,
+      "name": "Dampier",
+      "location": {
+        "long": 116.708333,
+        "lat": -20.658333
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 11200000,
+          "mined": 8500
+        },
+        {
+          "id": 2,
+          "name": "Silver",
+          "symbol": "Ag",
+          "total_amount": 6800000,
+          "mined": 1800
+        }
+      ],
+      "status": "active",
+      "year": 1995,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 105000,
+        "co2_emission_ton_per_year": 4200,
+        "waste_management": "dry stack",
+        "environmental_report_url": "https://example.com/dampier_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 7200
+            },
+            {
+              "symbol": "Ag",
+              "amount": 1500
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 220,
+        "contractors": 40,
+        "working_shifts": 2,
+        "main_operator": "Dampier Gold Mining Ltd",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-016",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2016,
+        "valid_until": 2046,
+        "renewable": true
+      }
+    },
+    {
+      "id": 17,
+      "name": "Coolgardie",
+      "location": {
+        "long": 121.164444,
+        "lat": -30.954444
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 18500000,
+          "mined": 12000
+        }
+      ],
+      "status": "inactive",
+      "year": 1892,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 25000,
+        "co2_emission_ton_per_year": 800,
+        "waste_management": "heritage preservation",
+        "environmental_report_url": "https://example.com/coolgardie_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2019,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 9500
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 45,
+        "contractors": 8,
+        "working_shifts": 1,
+        "main_operator": "Coolgardie Heritage Mining",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-017",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1891,
+        "valid_until": 2025,
+        "renewable": false
+      }
+    },
+    {
+      "id": 18,
+      "name": "Leonora",
+      "location": {
+        "long": 121.330556,
+        "lat": -28.880556
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 14800000,
+          "mined": 9200
+        },
+        {
+          "id": 11,
+          "name": "Copper",
+          "symbol": "Cu",
+          "total_amount": 8600000,
+          "mined": 2400
+        },
+        {
+          "id": 2,
+          "name": "Silver",
+          "symbol": "Ag",
+          "total_amount": 5200000,
+          "mined": 1100
+        }
+      ],
+      "status": "active",
+      "year": 1996,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 135000,
+        "co2_emission_ton_per_year": 5500,
+        "waste_management": "tailing pond",
+        "environmental_report_url": "https://example.com/leonora_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2023,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 8000
+            },
+            {
+              "symbol": "Cu",
+              "amount": 2000
+            },
+            {
+              "symbol": "Ag",
+              "amount": 900
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 320,
+        "contractors": 55,
+        "working_shifts": 3,
+        "main_operator": "Leonora Mining Corporation",
+        "safety_rating": "B"
+      },
+      "license": {
+        "license_id": "WA-MINE-018",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2017,
+        "valid_until": 2047,
+        "renewable": true
+      }
+    },
+    {
+      "id": 19,
+      "name": "Marble Bar",
+      "location": {
+        "long": 119.749167,
+        "lat": -21.175833
+      },
+      "mineral": [
+        {
+          "id": 3,
+          "name": "Aluminium",
+          "symbol": "Al",
+          "total_amount": 16800000,
+          "mined": 6500
+        },
+        {
+          "id": 5,
+          "name": "Titanium",
+          "symbol": "Ti",
+          "total_amount": 9400000,
+          "mined": 2800
+        }
+      ],
+      "status": "under_exploration",
+      "year": 2020,
+      "environmental": {
+        "impact_level": "low",
+        "water_usage_m3_per_year": 55000,
+        "co2_emission_ton_per_year": 1800,
+        "waste_management": "settling basin",
+        "environmental_report_url": "https://example.com/marblebar_env2024.pdf"
+      },
+      "production_history": [],
+      "operations": {
+        "employees": 65,
+        "contractors": 18,
+        "working_shifts": 1,
+        "main_operator": "Marble Bar Exploration Ltd",
+        "safety_rating": "A"
+      },
+      "license": {
+        "license_id": "WA-MINE-019",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 2019,
+        "valid_until": 2049,
+        "renewable": true
+      }
+    },
+    {
+      "id": 20,
+      "name": "Meekatharra",
+      "location": {
+        "long": 118.496667,
+        "lat": -26.595
+      },
+      "mineral": [
+        {
+          "id": 1,
+          "name": "Gold",
+          "symbol": "Au",
+          "total_amount": 9800000,
+          "mined": 4200
+        },
+        {
+          "id": 7,
+          "name": "Calcium",
+          "symbol": "Ca",
+          "total_amount": 13200000,
+          "mined": 3800
+        },
+        {
+          "id": 10,
+          "name": "Potassium",
+          "symbol": "K",
+          "total_amount": 7800000,
+          "mined": 2200
+        },
+        {
+          "id": 8,
+          "name": "Silicon",
+          "symbol": "Si",
+          "total_amount": 11500000,
+          "mined": 3400
+        }
+      ],
+      "status": "closed",
+      "year": 1963,
+      "environmental": {
+        "impact_level": "medium",
+        "water_usage_m3_per_year": 0,
+        "co2_emission_ton_per_year": 0,
+        "waste_management": "rehabilitation completed",
+        "environmental_report_url": "https://example.com/meekatharra_env2024.pdf"
+      },
+      "production_history": [
+        {
+          "year": 2010,
+          "data": [
+            {
+              "symbol": "Au",
+              "amount": 3800
+            },
+            {
+              "symbol": "Ca",
+              "amount": 3200
+            },
+            {
+              "symbol": "K",
+              "amount": 1800
+            },
+            {
+              "symbol": "Si",
+              "amount": 2900
+            }
+          ]
+        }
+      ],
+      "operations": {
+        "employees": 0,
+        "contractors": 6,
+        "working_shifts": 0,
+        "main_operator": "Meekatharra Historical Mining",
+        "safety_rating": "N/A"
+      },
+      "license": {
+        "license_id": "WA-MINE-020",
+        "issued_by": "Department of Mines, WA",
+        "issued_year": 1962,
+        "valid_until": 2012,
+        "renewable": false
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "c322ed17-4388-4586-8d69-20a1ccdb6392",
+      "title": "Exploring Lithium Opportunities in Western Australia",
+      "content": "Exploring Lithium Opportunities in Western Australia is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Morgan Chan",
+      "publish_date": "2025-03-13",
+      "tags": ["technology", "lithium", "WA"],
+      "summary": "A short summary of the article 'Exploring Lithium Opportunities in Western Australia' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": false
+    },
+    {
+      "id": "f51b67d0-853f-4fa9-b913-f20996797dbd",
+      "title": "Gold Mining Trends in 2025",
+      "content": "Gold Mining Trends in 2025 is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jordan Nguyen",
+      "publish_date": "2024-08-13",
+      "tags": ["gold", "WA"],
+      "summary": "A short summary of the article 'Gold Mining Trends in 2025' covering the key highlights.",
+      "read_time_minutes": 8,
+      "featured": false
+    },
+    {
+      "id": "5b75247e-5422-43a8-b214-8733a3ca49f6",
+      "title": "Sustainable Mining Practices for the Future",
+      "content": "Sustainable Mining Practices for the Future is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jordan Nguyen",
+      "publish_date": "2025-03-03",
+      "tags": ["technology", "mining"],
+      "summary": "A short summary of the article 'Sustainable Mining Practices for the Future' covering the key highlights.",
+      "read_time_minutes": 6,
+      "featured": true
+    },
+    {
+      "id": "7dad65fb-af6c-40ba-86eb-2ac872adb5f2",
+      "title": "The Rise of Rare Earth Minerals",
+      "content": "The Rise of Rare Earth Minerals is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jamie Lee",
+      "publish_date": "2024-11-09",
+      "tags": ["gold", "lithium"],
+      "summary": "A short summary of the article 'The Rise of Rare Earth Minerals' covering the key highlights.",
+      "read_time_minutes": 6,
+      "featured": false
+    },
+    {
+      "id": "0f06a0ab-ad3c-4127-beb9-7da53fe9b1ba",
+      "title": "Indigenous Partnerships in Mining Projects",
+      "content": "Indigenous Partnerships in Mining Projects is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jamie Lee",
+      "publish_date": "2025-05-15",
+      "tags": ["exploration", "WA", "lithium", "policy"],
+      "summary": "A short summary of the article 'Indigenous Partnerships in Mining Projects' covering the key highlights.",
+      "read_time_minutes": 4,
+      "featured": false
+    },
+    {
+      "id": "ba55bf5a-200c-42da-bdd1-21c6b9f72a64",
+      "title": "AI and Automation in Mineral Exploration",
+      "content": "AI and Automation in Mineral Exploration is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Alex White",
+      "publish_date": "2025-07-07",
+      "tags": ["mining", "policy", "lithium"],
+      "summary": "A short summary of the article 'AI and Automation in Mineral Exploration' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": false
+    },
+    {
+      "id": "0fa0d8c2-2c1d-4a8e-a5b9-5a4403cca49a",
+      "title": "How Climate Change Affects Mining Regulations",
+      "content": "How Climate Change Affects Mining Regulations is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Morgan Chan",
+      "publish_date": "2025-04-26",
+      "tags": ["mining", "sustainability", "lithium"],
+      "summary": "A short summary of the article 'How Climate Change Affects Mining Regulations' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": true
+    },
+    {
+      "id": "ca8fc674-0b8b-4f2c-ba7a-d8f01e076986",
+      "title": "Export Growth of Iron Ore from WA",
+      "content": "Export Growth of Iron Ore from WA is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jamie Lee",
+      "publish_date": "2024-11-19",
+      "tags": ["exploration", "sustainability", "policy", "WA"],
+      "summary": "A short summary of the article 'Export Growth of Iron Ore from WA' covering the key highlights.",
+      "read_time_minutes": 8,
+      "featured": false
+    },
+    {
+      "id": "c2558d4b-b6fb-4ed8-b1a1-613dab632bc7",
+      "title": "Critical Minerals and Global Supply Chains",
+      "content": "Critical Minerals and Global Supply Chains is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Taylor Smith",
+      "publish_date": "2025-04-14",
+      "tags": ["sustainability", "mining"],
+      "summary": "A short summary of the article 'Critical Minerals and Global Supply Chains' covering the key highlights.",
+      "read_time_minutes": 8,
+      "featured": false
+    },
+    {
+      "id": "9ef2af79-3c3b-436c-8743-a3b01c1cf3b2",
+      "title": "Future Workforce in Mining Industry",
+      "content": "Future Workforce in Mining Industry is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Alex White",
+      "publish_date": "2025-01-31",
+      "tags": ["technology", "exploration", "sustainability"],
+      "summary": "A short summary of the article 'Future Workforce in Mining Industry' covering the key highlights.",
+      "read_time_minutes": 8,
+      "featured": false
+    },
+    {
+      "id": "607f696f-81e6-40d3-a6fd-44fbf35f8fee",
+      "title": "Exploring Lithium Opportunities in Western Australia",
+      "content": "Exploring Lithium Opportunities in Western Australia is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Morgan Chan",
+      "publish_date": "2025-01-16",
+      "tags": ["sustainability", "gold", "mining"],
+      "summary": "A short summary of the article 'Exploring Lithium Opportunities in Western Australia' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": true
+    },
+    {
+      "id": "72f4b34d-d592-4e25-8270-a09c464add4a",
+      "title": "Gold Mining Trends in 2025",
+      "content": "Gold Mining Trends in 2025 is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Morgan Chan",
+      "publish_date": "2024-09-22",
+      "tags": ["technology", "gold"],
+      "summary": "A short summary of the article 'Gold Mining Trends in 2025' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": true
+    },
+    {
+      "id": "97052621-0507-4bab-a1f9-14b044c0607c",
+      "title": "Sustainable Mining Practices for the Future",
+      "content": "Sustainable Mining Practices for the Future is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Jamie Lee",
+      "publish_date": "2025-05-20",
+      "tags": ["WA", "gold", "exploration", "policy"],
+      "summary": "A short summary of the article 'Sustainable Mining Practices for the Future' covering the key highlights.",
+      "read_time_minutes": 5,
+      "featured": false
+    },
+    {
+      "id": "a6ebe33d-0601-428f-9006-6b0bb3bcacb3",
+      "title": "The Rise of Rare Earth Minerals",
+      "content": "The Rise of Rare Earth Minerals is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Morgan Chan",
+      "publish_date": "2024-10-31",
+      "tags": ["lithium", "technology", "sustainability"],
+      "summary": "A short summary of the article 'The Rise of Rare Earth Minerals' covering the key highlights.",
+      "read_time_minutes": 7,
+      "featured": false
+    },
+    {
+      "id": "9624fd62-80fa-422c-8a78-702d3c487700",
+      "title": "Indigenous Partnerships in Mining Projects",
+      "content": "Indigenous Partnerships in Mining Projects is an important topic in the mining and resources sector. This article explores various aspects of the issue including challenges, industry trends, and new innovations that are shaping the future.\n\nWe delve into how current market demands, geopolitical influences, and environmental concerns are influencing decisions across exploration, production, and export operations. Many experts agree that collaborative partnerships and responsible sourcing are becoming increasingly important.\n\nIn summary, the article aims to provide readers with an in-depth view of the implications of modern mining practices. It includes commentary from professionals in the field and analysis of current data, providing valuable insights for both industry stakeholders and the general public.",
+      "author": "Alex White",
+      "publish_date": "2024-12-05",
+      "tags": ["exploration", "WA"],
+      "summary": "A short summary of the article 'Indigenous Partnerships in Mining Projects' covering the key highlights.",
+      "read_time_minutes": 8,
+      "featured": false
     }
   ]
 }

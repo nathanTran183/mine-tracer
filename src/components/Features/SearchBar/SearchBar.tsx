@@ -10,7 +10,7 @@ const SearchBar = () => {
       />
       <button
         type="submit"
-        className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-gray-500 hover:cursor-pointer rounded-e-md border border-white dark:border-black hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-blue-300"
+        className="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-gray-500 hover:cursor-pointer rounded-e-md border border-white dark:border-black hover:bg-gray-600 focus:outline-none"
       >
         <svg
           className="w-4 h-4"
