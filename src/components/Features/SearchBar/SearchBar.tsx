@@ -4,7 +4,7 @@ const SearchBar = () => {
       <input
         type="search"
         id="search-dropdown"
-        className="block p-2.5 w-full z-20 text-sm rounded-md text-gray-900 bg-gray-50  border-s-gray-50 border-s-2 border border-gray-300 dark:bg-gray-800 outline-none dark:border-s-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
+        className="block p-2.5 w-full text-sm rounded-md text-gray-900 bg-gray-50  border-s-gray-50 border-s-2 border border-gray-300 dark:bg-gray-800 outline-none dark:border-s-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white "
         placeholder="Search Mine site, minerals..."
         required
       />
