@@ -1,6 +1,6 @@
 const SearchBar = () => {
   return (
-    <form className="max-w-md mx-auto">
+    <form className="align-bottom">
       <input
         type="search"
         id="search-dropdown"

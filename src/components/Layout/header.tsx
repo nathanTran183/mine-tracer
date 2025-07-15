@@ -17,7 +17,7 @@ export const Header = () => {
   const leftMenu: MenuBar[] = [
     { title: 'Portal', href: '/' },
     { title: 'Mine Type', href: '/mine-type' },
-    { title: 'Help', href: '/help' },
+    { title: 'Article', href: '/article' },
     { title: 'About Us', href: '/about' },
     { title: 'Privacy Policy', href: '/privacy-policy' },
   ];
