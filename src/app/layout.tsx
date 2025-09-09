@@ -1,7 +1,7 @@
 // import type { Metadata } from "next";
 import { Geist, Geist_Mono } from 'next/font/google';
-import { Header } from '@/components/layout/header';
-import { Footer } from '@/components/layout/footer';
+import { Header } from '@/components/Layout/header';
+import { Footer } from '@/components/Layout/footer';
 import './globals.css';
 import Provider from '@/contexts/minerals';
 
@@ -27,7 +27,7 @@ export default function RootLayout({
       >
         <Provider>
           <Header />
-          <main className="w-3/4 mx-auto flex-grow gap-[50px] items-center sm:items-start pt-36">
+          <main className="w-3/4 mx-auto flex-grow gap-[50px] items-center sm:items-start pt-30">
             {children}
           </main>
           <Footer />
