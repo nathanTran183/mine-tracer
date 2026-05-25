@@ -1,6 +1,6 @@
 # Mine-Tracer
 
-Welcome to our mining insights platform — a comprehensive resource for information on mineral mines across Western Australia.
+Welcome to the mining insights platform — a comprehensive resource for information on mineral mines across Western Australia.
 Discover detailed data on mine locations, mineral quantities, operational statuses, and exploration activity.
 Stay informed with curated articles covering the latest developments in the mining sector, and easily search for mines based on region, status, or mineral type.
 
@@ -37,7 +37,7 @@ json-server: https://github.com/typicode/json-server
 - Automatically remove `underfined | false | null`
 - Handle class condition easily
 
-3.
+3. concurrently: The usual way to run multiple commands concurrently
 
 ## Deploy on Vercel
 
