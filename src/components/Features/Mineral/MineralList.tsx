@@ -5,8 +5,10 @@ const MineralList = () => {
   const { minerals } = useMineralContext();
 
   return (
-    <div className="flex flex-row flex-wrap justify-center">
-      {minerals.map((mineral) => {
+    <div className="container mx-auto px-4">
+      <h2 className='text-2xl font-bold mb-6'>Explore by Mineral Type</h2>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+{minerals.map((mineral) => {
         return (
           <MineralCard
             key={mineral.id}
@@ -17,6 +19,8 @@ const MineralList = () => {
           />
         );
       })}
+      </div>
+      
     </div>
   );
 };
